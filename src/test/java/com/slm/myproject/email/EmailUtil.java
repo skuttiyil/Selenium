@@ -29,6 +29,7 @@ import javax.activation.FileDataSource;
 
 		public void sendEmail() {
 
+	
 			// Create object of Property file
 			Properties props = new Properties();
 
