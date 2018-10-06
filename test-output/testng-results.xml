@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7716" started-at="2018-10-06T00:50:39Z" finished-at="2018-10-06T00:50:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7716" started-at="2018-10-06T00:50:39Z" finished-at="2018-10-06T00:50:46Z">
+      <class name="com.slm.loginMail.ChkParam">
+        <test-method status="PASS" signature="parameterizedTest(java.lang.String)[pri:0, instance:com.slm.loginMail.ChkParam@42d80b78]" name="parameterizedTest" duration-ms="0" started-at="2018-10-05T20:50:46Z" finished-at="2018-10-05T20:50:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterizedTest -->
+      </class> <!-- com.slm.loginMail.ChkParam -->
+      <class name="com.slm.loginMail.LoginTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.slm.loginMail.LoginTest@343f4d3d]" name="beforeClass" is-config="true" duration-ms="3149" started-at="2018-10-05T20:50:39Z" finished-at="2018-10-05T20:50:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.slm.loginMail.LoginTest@343f4d3d]" name="sampleTest" duration-ms="3357" started-at="2018-10-05T20:50:42Z" finished-at="2018-10-05T20:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="clearDriver()[pri:0, instance:com.slm.loginMail.LoginTest@343f4d3d]" name="clearDriver" is-config="true" duration-ms="1190" started-at="2018-10-05T20:50:45Z" finished-at="2018-10-05T20:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearDriver -->
+      </class> <!-- com.slm.loginMail.LoginTest -->
+      <class name="com.slm.myproject.email.EmailUtil">
+        <test-method status="PASS" signature="sendEmail()[pri:0, instance:com.slm.myproject.email.EmailUtil@57baeedf]" name="sendEmail" is-config="true" duration-ms="1551" started-at="2018-10-05T20:50:47Z" finished-at="2018-10-05T20:50:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmail -->
+      </class> <!-- com.slm.myproject.email.EmailUtil -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
